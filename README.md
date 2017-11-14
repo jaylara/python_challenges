@@ -5,6 +5,9 @@
 We're learning Python! Getting started with a totally new language doesn't have to be hard. The biggest key is to practice doing something that you *already know* in the context of the new language. This is called a *transfer task*. The more languages and computer science concepts you learn, the easier new ones become to pick up and its mostly syntax, quirks and language-specific tools that become the tricky part.
 
 Now, your task is to *teach yourself* a bit of Python. The goal here isn't to become a Python master, but to explore and learn a bit about a new language.
+```diff
++ Answers to "Research: What is Python" highlighted in green
+```
 
 ## Goals:
 
@@ -71,16 +74,32 @@ Write the code to complete this in `euler_1/sum_of_natural_numbers.py`
 Here are some general questions you might get asked about Python. Spend some time researching and answering these questions.
 
 ##### How does Python compare to other langauges you've used?
-
+```diff
++ No parens, semicolons, or other excessive syntactic decoration around conditionals, loops, functions, etc. Ex: '{','}','(',')',';'
++ boolean operators 'and', 'or', 'not' instead of '&&', '||', '!'
++ greater support and emphasis on list/dictionary manipulation.
+```
 ##### Is Python a high or low level language?
-
+```diff
++ It is a high level language because it is more readable by humand and can be adapted for use on different types of computers. some would argue that it is "higher" than most
+```
 ##### Is it a compiled or interpeted language?
-
+```diff
++ In short, I would say: it depends on the implementation. IronPython is .Net's version of python, so it is compiled to Microsoft's Intermediate Language (MSIL)...kind of like C# and what Oracle did to Java several years ago. Normally, yes, it is interpreted. In short, 
+```
 ##### What paradigms does Python support?
-
+```diff
++ object-oriented, imperative, functional, procedural, reflective
+```
 ##### Does it have built in memory management? garbage collection?
-
+```diff
++ automatic memory management via garbage collection. additional features vary based on implementation (i.e. IronPython uses .Net Garbage Collector)
+```
 ##### Does it have strong support for functional programming?
-
+```diff
++ yes
+```
 ##### What's the deal with Python 2 vs Python 3?
-
+```diff
++ print(), integer division, unicode support, xrange, speed improvements, pickier about exception handling, etc
+```
